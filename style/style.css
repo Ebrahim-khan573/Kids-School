@@ -157,6 +157,91 @@ hr {
 /* banner section end ----------------------------------------------- */
 
 
+.card-container {
+    display: flex;
+    gap: 30px;
+    border-radius: 18px;
+}
+
+.standard-section {
+    margin-top: 60px;
+    margin: 0 140px;
+    margin-bottom: 80px;
+}
+
+.standard-title {
+    margin-bottom: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.kinder-card {
+    background-image: linear-gradient(rgb(222, 245, 255), rgb(255, 255, 255));
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 18px;
+    border: 0.94px solid rgb(222, 245, 255);
+}
+
+.elementary-card{
+    background-image: linear-gradient(rgb(255, 244, 220), rgb(255, 255, 255));
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 18px;
+    border: 0.94px solid rgb(255, 244, 220);
+}
+
+.middle-card{
+    background-image: linear-gradient(rgb(238, 225, 255), rgb(255, 255, 255));
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 18px;
+    border: 0.94px solid rgb(238, 225, 255);
+}
+
+.kinder-title {
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+    margin-bottom: 33px;
+
+}
+
+.card-img {
+    margin-bottom: 33px;
+}
+
+.kinder-describe {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kinder{
+    color: rgb(100, 200, 255);
+
+}
+
+.elementary{
+   color: rgb(240, 170, 0)
+}
+
+.middle{
+   color: rgb(135, 0, 255)
+}
+
+.read-more{
+    margin-bottom: 58px;
+}
+
+
+
 
 
 
@@ -207,17 +292,37 @@ hr {
     .banner-container {
         flex-direction: column-reverse;
         text-align: center;
-        
+
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 2rem;
         margin: 0;
     }
 
-    br{
+    br {
         display: none;
     }
-}
 
-    
+    .card-container{
+        flex-direction: column;
+    }
+
+    .standard-section{
+        margin: 20px;
+    }
+
+    .standard-title{
+        font-size: 2rem;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .kinder-card, .elementary-card, .middle-card{
+        padding: 20px;
+    } 
+
+    .card-img, .kinder-describe, .kinder-title, .read-more{
+        margin: 10px;
+    }
+}
