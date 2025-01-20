@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    
+}
+
+.font-raleway- {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+}
+
+
+
+/* nav section star ------------------------------- */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px 0 140px;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-logo img{
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.school-title {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.home {
+    color: rgb(254, 163, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.about {
+    color: rgb(1, 172, 253);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.facilities {
+    color: rgb(5, 212, 223);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.admission {
+    color: rgb(93, 88, 239);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.nav-btn {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 16px 61px;
+    border: none ;
+}
+
+.responsive{
+    display: none;
+}
+
+hr{
+    display: none;
+}
+
+
+/* nav section end -------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------- responsive design for mobile */
+
+@media screen and (max-width: 576px) {
+    .school-title, ul, .nav-btn{
+        display:none;
+    }
+
+   .nav-container{
+    padding: 20px 20px 10px 20px;
+   }
+
+   .responsive{
+    display: block;
+     }
+
+    .responsive img{
+        width: 100%;
+    }
+
+    hr{
+        display: block;
+        padding: 0;
+        border: 1px solid rgb(254, 163, 1);
+    }
+}
