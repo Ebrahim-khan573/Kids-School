@@ -5,7 +5,7 @@ body {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     margin: 0;
-    
+
 }
 
 .font-raleway- {
@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.nav-logo img{
+.nav-logo img {
     height: 100%;
 }
 
@@ -88,19 +88,73 @@ ul a {
     border-radius: 12px;
     background: rgb(254, 163, 1);
     padding: 16px 61px;
-    border: none ;
+    border: none;
 }
 
-.responsive{
+.responsive {
     display: none;
 }
 
-hr{
+hr {
     display: none;
 }
 
 
 /* nav section end -------------------------------------------------- */
+
+
+/* banner section star ----------------------------------------------- */
+
+.banner-section {
+    padding: 20px 140px 0 140px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Empowering {
+    color: rgb(254, 163, 1)
+}
+
+.towards {
+    color: rgb(1, 172, 253);
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner-describtion {
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px 47px;
+    border: none;
+}
+
+
+/* banner section end ----------------------------------------------- */
 
 
 
@@ -121,25 +175,49 @@ hr{
 /* ----------------------- responsive design for mobile */
 
 @media screen and (max-width: 576px) {
-    .school-title, ul, .nav-btn{
-        display:none;
+
+    .school-title,
+    ul,
+    .nav-btn {
+        display: none;
     }
 
-   .nav-container{
-    padding: 20px 20px 10px 20px;
-   }
+    .nav-container {
+        padding: 20px 20px 10px 20px;
+    }
 
-   .responsive{
-    display: block;
-     }
+    .banner-section {
+        padding: 0 20px;
+    }
 
-    .responsive img{
+    .responsive {
+        display: block;
+    }
+
+    .responsive img {
         width: 100%;
     }
 
-    hr{
+    hr {
         display: block;
         padding: 0;
         border: 1px solid rgb(254, 163, 1);
     }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+
+    .banner-title{
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    br{
+        display: none;
+    }
 }
+
+    
